@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+h1 {
+  font-weight: 1500;
+  font-size: 2.2em;
+}
+
+.header {
+  text-align: center;
+  margin: 30px auto;
+}
+.header a {
+  color: black;
+}
+
+body {
+  color: #333;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  background-image: url("https://static.pexels.com/photos/629163/pexels-photo-629163.jpeg");
+}
+
+.box {
+  border-radius: 10px;
+  position: relative;
+  margin: 5% auto auto auto;
+  width: 500px;
+  padding: 40px 50px 50px;
+  display: table;
+  background-color: #e3e3e3;
+}
+.box .quote-text {
+  text-align: center;
+  width: auto;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+.box .author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1em;
+  text-align: right;
+  margin: auto;
+}
+.box .buttons {
+  width: auto;
+  height: 50px;
+}
+.box .buttons .button {
+  padding: 8px;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px #999;
+}
+.box .buttons .button:hover {
+  background-color: #3e8e41;
+}
+.box .buttons .button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+.box .buttons .button#new-quote {
+  float: right;
+}
+.box .buttons .tweet {
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #00aced;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+.box .buttons .tweet:hover {
+  background-color: #0e9fd6;
+}
+.box .buttons .tweet:hover:active {
+  transform: translateY(4px);
+}
